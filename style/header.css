@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+*{
+     font-family: 'Lexend', serif;
+}
+body{
+    background:#313630;
+    font-family: 'Lexend', serif;
+    font-size:60px;
+    color:#e07b07;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #4D534C;
+  overflow: hidden;
+  margin-right:-10px;
+  margin-left:-10px;
+  margin-bottom:-10px;
+  margin-top:-10px;
+}
+.links{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+}
+.name{
+  float: left;
+  color: #5B9E7A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #3d3d3d;
+  color: white;
+}
+
